@@ -1,0 +1,28 @@
+.empList{
+    width: 100%;
+
+}
+.empList th, .empList td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.wrap h2.pageTitle, .search-form{
+    margin-bottom: 32px;
+}
+.loginform{
+    margin-bottom: 40px!important;
+}
+.loginform,.registrationform{
+    width: 50%; margin: 0 auto;
+}
+.loginform input, .registrationform input, .profile input{
+    padding: 10px 8px; margin-bottom: 10px; border: 1px solid #ccc; width: 100%;
+}
+.registrationform input[type="submit"], .loginform input[type="submit"], .profile input[type="submit"]{
+    background: green;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: auto;
+}
